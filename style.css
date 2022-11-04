@@ -1,0 +1,13 @@
+
+body {
+    color: darkred;
+}
+[id="htmlka"] {
+    font-size: 20px;
+    color: rgb(69, 69, 194);
+}
+.text {
+    color: fuchsia;
+    background-color: rgb(205, 176, 176);
+}
+/*при обращении к id #, при обращении к классу .  https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Selectors

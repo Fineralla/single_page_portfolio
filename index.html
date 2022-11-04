@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ирина Левченко - Разработчик</title>
+</head>
+<body>
+    <header class="header"> <!---шапка(всплывающее меню)поиск,еню, заголовки, логотипы и тд-->
+        <div class="container">
+            <img class="header__logo" src="" alt="Логотип Ирины" >
+
+            <address class="header__contacts contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <p class="contacts__head">Телефон</p>
+                        <a href="tel:+79087401632" class="contact__link">+7 908 740 16 32</a>  <!---a - тэг ссылки tel:вызов-->
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__head">E-MAIL</p>
+                        <a href="mailto:fineralla@yandex.ru" class="contact__link">fineralla@yandex.ru</a> 
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__head">Соц.сети</p>
+                        <ul class="contacts__social-list">
+                            <li class="contacts__social-item">
+                                <a href="" class="contacts__social-link contacts__social-link-whatsup"></a>
+                            </li>
+                            <li class="contacts__social-item">
+                                <a href="" class="contacts__social-link contacts__social-link-instagram"></a>
+                            </li>
+                            <li class="contacts__social-item">
+                                <a href="" class="contacts__social-link contacts__social-link-telegram"></a>
+                            </li>
+                            <li class="contacts__social-item">
+                                <a href="" class="contacts__social-link contacts__social-link-facebook"></a>
+                            </li>
+                        </ul> 
+                    </li>
+                </ul>
+            </address>
+
+            <button class="header__contacts-burger">
+
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="present">
+            <div class="container">
+                <img src="" alt="Фотография Ирины" class="present__photo">
+
+                <div class="present__contant">
+                    <hgroup class="present__group-title">
+                        <h1 class="present__title">Ирина Левченко</h1>
+                        <h2 class="present__subtittle">Разработчик</h2>
+                    </hgroup>
+                </div>
+                <p class="present__discription">Меня зовут Ирина Левченко, я разработчик с опытом n лет</p>
+                <button class="present__order-btn">Заказать</button>
+            </div>
+        </section>
+        <section class="advantage">
+            <div class="container">
+                <h2 class="advantage__title">Почему я</h2>
+                <ul class="advantage__list">
+                    <li class="advantage__item advantage__item-stack">Стек: HTML, CSS, PHP, JavaScript, C++, Python</li>
+                    <li class="advantage__item advantage__item-copyright">Копирайтинг</li>
+                    <li class="advantage__item advantage__item-adapt">Адаптивная верстка</li>
+                    <li class="advantage__item advantage__item-inclusive">Инклюзивность</li>
+                    <li class="advantage__item advantage__item-clear">Чистый код</li>
+                    <li class="advantage__item advantage__item-muckup">Создать muckup под ваш проект</li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">Портфолио</h2>
+                <div class="portfolio__slider">
+                    <ul class="portfolio__list">
+                        <li class="portfolio__item">
+                            <article class="card">
+                                <img src="" alt="" class="cart__picture">
+                                <p class="card__data">
+                                    <span class="card__client">Клиент: </span>
+                                    <time class="card__date" datetime="2022">год:2022</time>
+                                </p>
+
+                                <h3 class="card__title">Многостраничный сайт</h3>
+                            </article>
+                        </li>
+                        <li class="portfolio__item">
+                            <article class="card">
+                                <img src="" alt="" class="cart__picture">
+                                <p class="card__data">
+                                    <span class="card__client">Клиент: </span>
+                                    <time class="card__date" datetime="2022">год:2022</time>
+                                </p>
+
+                                <h3 class="card__title">Многостраничный сайт</h3>
+                            </article>
+                        </li>
+                        <li class="portfolio__item">
+                            <article class="card">
+                                <img src="" alt="" class="cart__picture">
+                                <p class="card__data">
+                                    <span class="card__client">Клиент: </span>
+                                    <time class="card__date" datetime="2022">год:2022</time>
+                                </p>
+
+                                <h3 class="card__title">Landing-page</h3>
+                            </article>
+                        </li>
+                        <li class="portfolio__item">
+                            <article class="card">
+                                <img src="" alt="" class="cart__picture">
+                                <p class="card__data">
+                                    <span class="card__client">Клиент: </span>
+                                    <time class="card__date" datetime="2022">год:2022</time>
+                                </p>
+
+                                <h3 class="card__title">Landing-page</h3>
+                            </article>
+                        </li>
+                        <li class="portfolio__item">
+                            <article class="card">
+                                <img src="" alt="" class="cart__picture">
+                                <p class="card__data">
+                                    <span class="card__client">Клиент: </span>
+                                    <time class="card__date" datetime="2022">год:2022</time>
+                                </p>
+
+                                <h3 class="card__title">Landing-page</h3>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+<!---title(атрибут) в абзаце - это высвечивающаяся подсказка <p title=""></p>-->
+<!---label - ярлык, при тыке на него, сразу можно писать в форме-->
+<!---target="_blank" должен в новой вкладке открывать сайт-->
